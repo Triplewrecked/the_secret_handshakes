@@ -13,11 +13,16 @@
  *= require_tree .
  *= require_self
  */
- 
+.fa-hand-scissors-o {
+    color: white;
+}
 .background-color {
     background-color: black;
 }
 
-
+// imports for styles */ 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
