@@ -7,4 +7,7 @@ class PagesController < ApplicationController
     
     def video
     end
+    
+    def music
+    end
 end
