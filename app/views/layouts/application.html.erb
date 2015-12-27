@@ -6,8 +6,8 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   </head>
-    <body>
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <body class="background-color">
+    <nav class="navbar navbar-black navbar-static-top" role="navigation">
       <div class='container'>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
@@ -25,10 +25,12 @@
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
+  
     
-    <div class="container">  
+    <div>  
       <%= yield %>
     </div>
     
+   </div>
 </body>
 </html>
