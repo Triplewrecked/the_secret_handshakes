@@ -1,9 +1,12 @@
 .jumbotron {
   background-image:url('http://www.bayareapestcontrol.us/wp-content/uploads/2015/04/bay-area-pest-control-ants.jpg');
-  height: 500px;
-  width: 100%;
-  background-repeat: no-repeat;
+   webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 800px;
+  position: relative;
+
 }
 
 .jumbotron .container {
@@ -11,13 +14,13 @@
   top:100px;
 }
 
-.jumbotron h1 {
-  color: #fff;
+
+.name {
+  color: grey;
   font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Amatic SC', cursive;
   font-weight: bold;
 }
 
-.background-color {
-    background-color: black;
-}
+
+

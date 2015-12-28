@@ -19,7 +19,16 @@
 .background-color {
     background-color: black;
 }
+.nav-padding {
+    padding: 0px;
+    margin-bottom: 0px;
+}
 
+.name {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+}
 // imports for styles */ 
 @import "bootstrap-sprockets";
 @import "bootstrap";

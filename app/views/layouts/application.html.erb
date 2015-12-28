@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   </head>
     <body class="background-color">
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -16,22 +17,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <%= link_to root_path, class: 'navbar-brand' do %>
+          <%= link_to root_path, class: 'navbar-brand ' do %>
           <i class="fa fa-hand-scissors-o"></i>
-            The Secret Handshakes
-          <% end %>
+            
+              THE SECRET HANDSHAKES
+              <% end %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "About", about_path %></li>
-            <li><%= link_to "Videos", video_path %></li>
-            <li><%= link_to "Music", music_path %></li>
+            <li><%= link_to "ABOUT", about_path %></li>
+            <li><%= link_to "VIDEOS", video_path %></li>
+            <li><%= link_to "MUSIC", music_path %></li>
+            <li><%= link_to "CONTACT", new_contact_path %></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
   
-    <div class="container"></div>
+    <div class="container background-color"></div>
       <%= yield %>
     </div>
    </div>
